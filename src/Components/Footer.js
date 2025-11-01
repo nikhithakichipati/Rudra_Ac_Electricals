@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="list-unstyled mt-3">
               <li className="mb-2">
                 <FontAwesomeIcon icon={faEnvelope} className="me-2 text-warning" />
-                rudraacServices@gmail.com
+                rudra.ac.elec.services@gmail.com
               </li>
               <li>
                 <FontAwesomeIcon icon={faPhone} className="me-2 text-warning" />
