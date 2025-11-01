@@ -151,7 +151,7 @@ const Header = () => {
               Testimonials
             </Link>
             <Link
-              to="/contact"
+              to="/#contact"
               className={`nav-link ${
                 scrolled ? "text-dark" : "text-white"
               }`}

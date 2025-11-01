@@ -11,7 +11,7 @@ const Team =()=>{
         {
             img:member1,
             name:"Anil Kumar",
-            role:"CEO",
+            role:"Founder",
             desc:"Leads Strategy and vision."
         },
         {
