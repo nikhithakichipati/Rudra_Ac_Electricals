@@ -151,6 +151,7 @@ const Header = () => {
               Testimonials
             </Link>
             <Link
+              smooth
               to="/#contact"
               className={`nav-link ${
                 scrolled ? "text-dark" : "text-white"
