@@ -6,8 +6,8 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white pt-5 pb-3 mt-5">
-      <div className="container">
+    <footer  className="bg-dark text-white pt-5 pb-3 mt-5">
+      <div id="contact" className="container">
         <div className="row text-center text-md-start align-items-start">
           {/* Logo Section */}
           <div className="col-12 col-md-4 mb-4 d-flex flex-column align-items-center align-items-md-start">
@@ -29,17 +29,17 @@ const Footer = () => {
             </h5>
             <ul className="list-unstyled mt-3">
               <li>
-                <Link to="/home" className="text-white text-decoration-none d-block mb-2">
+                <Link to="/#home" className="text-white text-decoration-none d-block mb-2">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-white text-decoration-none d-block mb-2">
+                <Link to="/#services" className="text-white text-decoration-none d-block mb-2">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white text-decoration-none d-block">
+                <Link to="/#contact" className="text-white text-decoration-none d-block">
                   Contact
                 </Link>
               </li>
