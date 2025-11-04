@@ -146,7 +146,7 @@ const Header = () => {
           >
             <h4 className="mb-3 text-primary">Contact Us</h4>
             <p className="mb-1">📍 Beside Srichaitanya college,Annamaiah circle,Nellore,AndhraPradhesh</p>
-            <p className="mb-1">📞 +91 8919859723</p>
+            <p className="mb-1">📞 +91 8121122522</p>
             <p className="mb-3">📧 rudra.ac.elec.services@gmail.com</p>
             <button className="btn btn-primary px-4" onClick={() => setShowContact(false)}>
               Close

@@ -1,6 +1,7 @@
 import React from "react";
 import footerlogo from "../Images/footerlogo.png";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
@@ -27,20 +28,25 @@ const Footer = () => {
             <h5 className="text-uppercase fw-bold border-bottom border-warning d-inline-block pb-1">
               Quick Links
             </h5>
-            <ul className="list-unstyled mt-3">
+            <ul className="list-unstyled mt-4">
               <li>
-                <Link to="/#home" className="text-white text-decoration-none d-block mb-2">
+                <Link smooth to="/#home" className="text-white text-decoration-none d-block mb-2">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/#services" className="text-white text-decoration-none d-block mb-2">
+                <Link smooth to="/#services" className="text-white text-decoration-none d-block mb-2">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/#contact" className="text-white text-decoration-none d-block">
-                  Contact
+                <Link  smooth to="/#team" className="text-white text-decoration-none d-block mb-2">
+                  Team
+                </Link>
+                </li>
+                <li>
+                <Link  smooth to="/#testimonials" className="text-white text-decoration-none d-block mb-2">
+                  Testimonials
                 </Link>
               </li>
             </ul>
@@ -58,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faPhone} className="me-2 text-warning" />
-                +91 8919859723
+                +91 8121122522
               </li>
             </ul>
           </div>

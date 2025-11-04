@@ -36,7 +36,7 @@ const Team =()=>{
     ];
     return(
         <section id="team" className="py-5 bg-light">
-            <div className="conatainer">
+            <div className="container">
                 <h2 className="text-center mb-5">Meet Our Team</h2>
                 <div className="row g-4">
                     {teamMembers.map((member,index)=>(

@@ -28,17 +28,17 @@ const Home = () => {
     }
 
     // Replace with your WhatsApp number (country code + number, no plus sign)
-    const phoneNumber = "918919859723"; // Example
+    const phoneNumber = "918121122522"; // Example
     const message = `🧾 *New Service Booking Request*%0A
 *Name:* ${name}%0A
 *Mobile:* ${mobile}%0A
 *service:* ${service}%0A
-%0A📅 Please contact the client soon.`;
+%0A Please contact the client soon.`;
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
     // Open WhatsApp
-    window.open(whatsappURL, "_blank");
+    window.open(whatsappURL, "_self");
 
     // Confirmation
     alert("✅ Your service is booked! Our agent will contact you shortly.");
